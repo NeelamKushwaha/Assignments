@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        h1 {
+            color: black;
+        }
+        p {
+            font-family: 'Verdana', sans-serif;
+            line-height: 1.8;
+            text-align: left;
+            margin: 10px 40px;
+            color: black;
+        }
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 30%;
+            height: auto;
+        }
+        .caption {
+            font-style: italic;
+            margin-top: 10px;
+        }
+        .styled-button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: 2px solid #0056b3;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+        .styled-button:hover {
+            background-color: #0056b3;
+            border-color: #003f7f;
+        }
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+        input {
+            padding: 8px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Webpage</h1>
+    <p>The digital world is constantly evolving, shaping the way we interact, communicate, and access information.</p>
+    <p>Web development plays a crucial role in building user-friendly websites and applications.</p>
+    
+    <div class="image-container">
+        <img src="https://vitbhopal.ac.in/wp-content/uploads/2024/03/VITB-Background.jpeg" alt="VIT Bhopal Campus">
+        <p class="caption">Figure 1: VIT Bhopal Campus.</p>
+    </div>
+    
+    <button class="styled-button">Click Me</button>
+    
+    <table>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+            <td>Row 1, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+        </tr>
+    </table>
+    
+    <div class="form-container">
+        <form>
+            <input type="text" placeholder="Enter your name" required>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="styled-button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
